@@ -1,5 +1,5 @@
 #Name
-NAME = Car
+NAME = Shape
 
 #Source
 SRC = main.cpp

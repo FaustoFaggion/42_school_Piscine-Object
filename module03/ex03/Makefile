@@ -1,5 +1,5 @@
 #Name
-NAME = Car
+NAME = EmployeeManagement
 
 #Source
 SRC = main.cpp

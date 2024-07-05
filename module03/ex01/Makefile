@@ -1,5 +1,5 @@
 #Name
-NAME = Car
+NAME = Command
 
 #Source
 SRC = main.cpp

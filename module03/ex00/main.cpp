@@ -1,23 +1,41 @@
+#include <iostream>
 #include "Car.hpp"
 
-int main () {
+int main() {
+
+    Car car = Car();
     
+    car.start();
     
-    Car carro;
-    carro.start();
-    carro.stop();
-    carro.accelerate(1);
-    carro.shift_gears_up();
-    carro.shift_gears_down();
-    carro.reverse();
-    carro.turn_wheel(2);
-    carro.straighten_wheels();
-    carro.apply_force_on_brakes(3);
-    carro.apply_emergency_brakes();
-
-    std::cout << "Fim." << std::endl;
-
-
-
+    car.acelerate(20);
+    car.shift_gears_up();
+    
+    car.acelerate(20);
+    car.shift_gears_up();
+    
+    car.acelerate(20);
+    car.shift_gears_up();
+    
+    car.acelerate(20);
+    car.shift_gears_up();
+    
+    car.acelerate(20);
+    car.shift_gears_up();
+    
+    car.apply_force_on_brakes();
+    car.stop();
+    
+    car.shift_gears_down();
+    car.shift_gears_up();
+    
+    car.reverse();
+    
+    car.turn_wheel(20);
+    car.straighten_wheels();
+    
+    car.apply_emergency_brakes();
+    
+    car.stop();
+    
     return 0;
-};
+}
